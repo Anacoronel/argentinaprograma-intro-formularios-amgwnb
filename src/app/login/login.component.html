@@ -29,9 +29,12 @@
     </p>
   </div>
     <br/>
-    <div>
-        <button   type="submit">Iniciar Sesión</button>
-    </div>
+  <div>
+    <button type="submit" [disabled]="!form.valid">Submit</button>
+
+
+
+  </div>
 </form>
 
 <div>
